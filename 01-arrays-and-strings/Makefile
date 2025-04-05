@@ -6,7 +6,7 @@ TEMPLATE_DIR=../template
 .PHONY: setup
 setup:
 	@if [ -z "$(DIR)" ]; then \
-		echo "Error: Specify dirctory name to create"; \
+		echo "Error: Specify directory name to create"; \
 	elif [ ! -d "$(DIR)" ]; then \
 		mkdir -p $(DIR); \
 		cp $(TEMPLATE_DIR)/*.java $(DIR)/; \
