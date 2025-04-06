@@ -26,7 +26,7 @@ run:
 		echo "Running tests in $(DIR)"; \
 		cd $(DIR); \
 		$(JAVAC) *.java; \
-		$(JAVA) $(TEST); \
+		$(JAVA) -ea $(TEST); \
 		cd ..; \
 		$(MAKE) clean DIR=$(DIR); \
 	else \
