@@ -2,6 +2,7 @@
 
 ## Question
 
+
 ## Design
 
 ### Step 1: Scope the problem
